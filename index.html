@@ -4,11 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Responsive Nvigation Menu</title>
 </head>
 
 <body>
-
+  <div class="navigation">
+    <div class="navArea">
+      <ul>
+        <li>
+          <a href="#" onmouseenter="changeImage('imgs/brown_img.jpg')">Home</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="changeImage('imgs/yellow_img.jpg')">About</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="changeImage('imgs/green_img.jpg')">Job History</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="changeImage('imgs/blue_img.jpg')">Portfolio</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="changeImage('imgs/black_img.jpg')">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="imgArea">
+      <img src="imgs/brown_img.jpg" id="slider">
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
