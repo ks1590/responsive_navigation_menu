@@ -3,8 +3,8 @@ function changeImage(anything) {
 }
 
 function toggleMenu() {
-  const munuToggle = document.querySelector(".menuToggle");
+  const menuToggle = document.querySelector(".menuToggle");
   const navigation = document.querySelector(".navigation");
-  munuToggle.classList.toggle("active")
+  menuToggle.classList.toggle("active")
   navigation.classList.toggle("active")
 }
